@@ -10,3 +10,4 @@ elif first == second or  second == Third  or first ==  Third :
 # elif first != second and  second != Third  and first !=  Third :
 else:
     print('Ne  ravni,', 0)
+    print ('end')
