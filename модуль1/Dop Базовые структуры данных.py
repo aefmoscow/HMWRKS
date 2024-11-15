@@ -12,4 +12,4 @@ middle_grades = (
 my_dict = {sorted_list_students[0]: middle_grades[0], sorted_list_students[1]: middle_grades[1],
            sorted_list_students[2]: middle_grades[2], sorted_list_students[3]: middle_grades[3],
            sorted_list_students[4]: middle_grades[4]}
-print(my_dict)*2
+print(my_dict)
