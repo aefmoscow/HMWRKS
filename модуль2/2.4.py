@@ -6,3 +6,11 @@ not_primes = []
 # При помощи цикла for переберите список numbers.
 for i in range(0, len(numbers)):
     print(numbers[i])
+    primes = numbers[i]
+    not_primes =  numbers[i]
+
+    is_prime=[True]
+
+
+print('primes', primes)
+print('Not primes',not_primes)

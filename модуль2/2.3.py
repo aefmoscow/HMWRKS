@@ -1,5 +1,5 @@
 # проверочная строка на выход диапазона
-# my_list = [42, 69, 322, 13, 0, 99, 5, 9, 8, 7, 6, 5]
+# my_list = [42, -69, 5]
 # начало программы
 my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
 inn = 0
@@ -11,5 +11,6 @@ while my_list[inn] > 0:
     if my_list[inn] == 0:
         inn = inn + 1
     elif inn == l:
+        print(my_list[inn])
         break
     continue
