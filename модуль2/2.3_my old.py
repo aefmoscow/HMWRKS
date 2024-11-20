@@ -11,4 +11,6 @@ while el_ind < len(my_list):
     elif item < 0:
         break
     else:
-        print(item)
+        itemlist.append(item)
+print(*itemlist)
+        # print(item)
