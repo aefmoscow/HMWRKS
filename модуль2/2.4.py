@@ -1,19 +1,20 @@
-# дан список
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-# создать пустые списки  primes и not_primes
+# комментарии не читайте!!! все для обучения на pythontutor.com ;)
+
+numbers = [-10, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 primes = []
 not_primes = []
-# условия что число простое:
-def is_prime(a):
-    for i in range(2, int(a ** 0.5) + 1):
-        if a % i == 0:
-            return primes[1]
-    return True
 # При помощи цикла for переберите список numbers.
-for i in range(0, len(numbers)):
-    k = numbers[i]
-    print(k)
 
+for elem in numbers:
+    is_prime = True
+    for divider in range(2,
+                         elem):  # Напишите ещё один цикл for (вложенный), где будут подбираться делители для числа из 1ого цикла.
+        if elem % divider == 0:
+            is_prime = False
+            not_primes.append(elem)
+            break  # Попробуйте ускорить процесс выяснения простоты числа при помощи оператора break, когда найдёте делитель.
+    if is_prime == True and elem != 1 and elem != 0 and elem > 0:
+        primes.append(elem)
 
-print('primes', primes[1])
-print('Not primes', )
+print(f'Primes: {primes} ')
+print(f'Not Primes: {not_primes}')
