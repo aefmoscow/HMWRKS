@@ -4,17 +4,16 @@ numbers = [-10, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 primes = []
 not_primes = []
 # При помощи цикла for переберите список numbers.
-
-for elem in numbers:
+for dig in numbers:
     is_prime = True
-    for divider in range(2,
-                         elem):  # Напишите ещё один цикл for (вложенный), где будут подбираться делители для числа из 1ого цикла.
-        if elem % divider == 0:
+    for divider in range(2, dig):
+# Напишите ещё один цикл for (вложенный), где будут подбираться делители для числа из 1ого цикла.
+        if dig % divider == 0:
             is_prime = False
-            not_primes.append(elem)
-            break  # Попробуйте ускорить процесс выяснения простоты числа при помощи оператора break, когда найдёте делитель.
-    if is_prime == True and elem != 1 and elem != 0 and elem > 0:
-        primes.append(elem)
+            not_primes.append(dig)
+            break
+    if is_prime == True and dig != 1 and dig != 0 and dig > 0:
+        primes.append(dig)
 
 print(f'Primes: {primes} ')
 print(f'Not Primes: {not_primes}')
