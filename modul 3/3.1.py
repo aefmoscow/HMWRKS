@@ -23,8 +23,7 @@ print(string_info('Armageddon'))
 # принимает два аргумента: строку и список, и возвращает True, если строка находится в этом списке, False - если отсутствует. Регистром строки при проверке пренебречь:
 def is_contains(string, list_to_search):
     for i in range(1, len(list_to_search)):
-        list_to_search_l = lower_string(list_to_search[i])
-    if lower_string(string) in list_to_search_l:
+      if lower_string(string) in lower_string(list_to_search[i]):
         count_calls()
         return True
     else:
