@@ -7,7 +7,7 @@ def count_calls():
     calls += 1
 
 # приведем к нижнему индексу
-def lower_string(elem):
+def lowing_string(elem):
     a = elem.lower()
     return a
 
@@ -24,7 +24,7 @@ print(string_info('Armageddon'))
 # принимает два аргумента: строку и список, и возвращает True, если строка находится в этом списке, False - если отсутствует. Регистром строки при проверке пренебречь:
 def is_contains(string, list_to_search):
     for i in range(1, len(list_to_search)):
-      if lower_string(string) in lower_string(list_to_search[i]):
+      if lowing_string(string) in lowing_string(list_to_search[i]):
         count_calls()
         return True
     else:
