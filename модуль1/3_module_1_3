@@ -1,8 +1,0 @@
-name = 'Den'
-print('Name:', name)
-age = 40
-print('Age:', age)
-New_age = (age + 5)
-print('New_age:', age + 5)
-is_student = 'true'
-print('is_student:', is_student)
