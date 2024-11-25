@@ -1,3 +1,4 @@
+# "Способы вызова функции"
 def send_email(message, recipient, sender="university.help@gmail.com"):
     if ("@" in sender and "@" in recipient) and (".com" in sender or ".ru" in sender or ".net" in sender) and (".com" in recipient or ".ru" in recipient or ".net" in recipient):
         if sender != recipient:

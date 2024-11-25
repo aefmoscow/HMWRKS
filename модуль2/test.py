@@ -13,5 +13,7 @@
 # print(win1)
 nums =(4,'yuyu',67)
 for i in range(len(nums)):
+
     print(i)
+
 print(nums)
