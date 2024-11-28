@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b6653d8-13e8-4b8d-b5bf-07f8b7437853" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/modul 3/3.1 old.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modul 3/31.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul 3/3.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul 3/3.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/модуль2/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/модуль2/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,31 +48,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.2.1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.2.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.31_EL.executor&quot;: &quot;Run&quot;,
-    &quot;Python.papa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;I:/YandexDisk/work/python/HMWRKSPY/modul 3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.2.1.executor": "Debug",
+    "Python.2.2.executor": "Run",
+    "Python.2.3.executor": "Run",
+    "Python.2.4.executor": "Run",
+    "Python.2.5.executor": "Run",
+    "Python.2.6.executor": "Run",
+    "Python.3.1.executor": "Run",
+    "Python.3.2.executor": "Run",
+    "Python.3.3.executor": "Run",
+    "Python.31_EL.executor": "Run",
+    "Python.papa.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "I:/YandexDisk/work/python/HMWRKSPY/modul 3"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="I:\YandexDisk\work\python\HMWRKSPY\modul 3" />
       <recent name="I:\YandexDisk\work\python\HMWRKSPY\модуль2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\YandexDisk\work\python\HMWRKSPY\modul 3" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -380,7 +383,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732549531128</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="2">
+      <option name="closed" value="true" />
+      <created>1732813227136</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1732813227136</updated>
+    </task>
+    <task id="LOCAL-00038" summary="2">
+      <option name="closed" value="true" />
+      <created>1732813274433</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1732813274433</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
