@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5e2d799b-f31e-4a8e-9f2c-e524b04ac182" name="Changes" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul 3/36.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul3/3.1 old.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3 add/01_triangle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3 add/02_calls_and_defaults.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3 add/02_fractal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3 add/02_snowflake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3 add/03_arbitrary_params.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3 add/04_recursion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3 add/05_builtin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3 add/calc.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,27 +53,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.01_triangle.executor": "Run",
-    "Python.02_calls_and_defaults.executor": "Run",
-    "Python.02_fractal.executor": "Run",
-    "Python.02_snowflake.executor": "Run",
-    "Python.2.1.executor": "Run",
-    "Python.2.4.executor": "Run",
-    "Python.36.executor": "Run",
-    "Python.51.executor": "Run",
-    "Python.calc.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "I:/YandexDisk/work/python/HMWRKSPY",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.01_triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_calls_and_defaults.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_fractal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_snowflake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.36.executor&quot;: &quot;Run&quot;,
+    &quot;Python.51.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/YandexDisk/work/python/HMWRKSPY&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="I:\YandexDisk\work\python\HMWRKSPY\модуль2" />
@@ -112,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733758722387</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2">
+      <option name="closed" value="true" />
+      <created>1733811994026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733811994026</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2">
+      <option name="closed" value="true" />
+      <created>1733812083386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733812083386</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
