@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e2d799b-f31e-4a8e-9f2c-e524b04ac182" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/module3_addons/venturi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3_addons/VenturiEquationSim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/53.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5/5.2.files/filelist.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +32,12 @@
     &quot;assignee&quot;: &quot;aefmoscow&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aefmoscow/22.git",
-    "accountId": "345360a0-6f42-4468-ae1f-0453c2ce0d47"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aefmoscow/22.git&quot;,
+    &quot;accountId&quot;: &quot;b729ce13-beca-491b-9f35-15f66a965c73&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -46,37 +47,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.01_triangle.executor": "Run",
-    "Python.02_calls_and_defaults.executor": "Run",
-    "Python.02_fractal.executor": "Run",
-    "Python.02_snowflake.executor": "Run",
-    "Python.04_practice.executor": "Run",
-    "Python.2.1.executor": "Run",
-    "Python.2.4.executor": "Run",
-    "Python.3.1.executor": "Run",
-    "Python.36.executor": "Run",
-    "Python.4_p_i.executor": "Run",
-    "Python.5.1.executor": "Run",
-    "Python.5.2.executor": "Run",
-    "Python.51.executor": "Run",
-    "Python.calc.executor": "Run",
-    "Python.nim_engine.executor": "Run",
-    "Python.practice_1_2.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.venturi.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "I:/YandexDisk/work/python/HMWRKSPY",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.01_triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_calls_and_defaults.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_fractal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_snowflake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.36.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4_p_i.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.51.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nim_engine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.venturi.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/YandexDisk/work/python/HMWRKSPY/module5&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\YandexDisk\work\python\HMWRKSPY\module5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\YandexDisk\work\python\HMWRKSPY\module5" />
+      <recent name="I:\YandexDisk\work\python\HMWRKSPY\module3_addons" />
       <recent name="I:\YandexDisk\work\python\HMWRKSPY\модуль2" />
       <recent name="I:\YandexDisk\work\python\HMWRKSPY\modul5" />
     </key>
@@ -205,7 +212,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -282,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734104919008</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2">
+      <option name="closed" value="true" />
+      <created>1734370664461</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734370664461</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
