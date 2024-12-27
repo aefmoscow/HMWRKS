@@ -11,7 +11,7 @@ class Animal:
     def eat(self, food):
 # Если переданное растение (food) съедобное - выводит на экран, меняется атрибут fed на True.
 # Если переданное растение (food) не съедобное -выводит на экран,
-# меняется атрибут alive на False.
+# меняется атрибут alive на False
         if food.edible:
             Animal.fed = True
             print(f'{self.name} съел {food.name}')
