@@ -59,8 +59,6 @@ class Vehicle:
 class Sedan(Vehicle):
     __PASSENGERS_LIMIT = 5
 
-    # Текущие цвета __COLOR_VARIANTS = ['blue', 'red', 'green', 'black', 'white']
-
 vehicle1 = Sedan('Fedos', 'Toyota Mark II', 'blue', 500)
 # Изначальные свойства
 vehicle1.print_info()
