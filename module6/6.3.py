@@ -37,8 +37,7 @@ class Bird(Animal):
 
     def lay_eggs(self):
         egg = random.randint(1, 4)
-        print(f"Here is(are) {egg} egg(s) for you  # Число может быть другим (1-4)")
-
+        print(f'Here is(are) {egg} egg(s) for you')
 
 class AquaticAnimal(Animal):
     _DEGREE_OF_DANGER = 3
