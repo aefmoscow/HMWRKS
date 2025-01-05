@@ -1,42 +1,107 @@
+from time import sleep
+
+
 class User:
     def __init__(self, nickname, password, age):
-        self.nickname= nickname
-        self.password = password
+        self.nickname = nickname
+        self.password = hash(password)
         self.age = age
+
+    #     вернем полученные данные в метод login
+    def getinfo(self):
+        return self.nickname, self.password
+
+    # добавим строкового отображения для верной работы метода register
+    def __str__(self):
+        return self.nickname
+
+    #     теперь проверим есть ли такие пользователи
+    def __eq__(self, other):
+        return self.nickname == other.nickname
 
 
 class Video:
-    def __init__(self, title, duration, time_now = 0, adult_mode = bool(False)):
+    def __init__(self, title, duration, time_now=0, adult_mode=False):
         self.title = title
         self.duration = duration
         self.time_now = time_now
         self.adult_mode = adult_mode
 
-    def __str__(self):
-    def __eq__(self, other):
-    def __contains__(self, item):
+
+# в связи с не отображением титлов из задания, вставим костыль, либо распаковать объекты данных в print *ur
+    def __repr__(self):
+        return self.title
+
+    # def __contains__(self, item):
+
 
 class UrTube:
-    def __init__(self, users, videos, current_user):
-        self.users = users
-        self.videos = videos
-        self.current_user = current_user
+    def __init__(self):
+        self.users = []
+        self.videos = []
+        self.current_user = None
 
-    def log_in(self, nickname, password):
-        if nickname == user.nickname
+    def log_in(self, login, password):
+        for user in self.users:
+            if (login, hash(password)) == user.getinfo():
+                self.current_user = user
+                return user
 
     def register(self, nickname, password, age):
-        if nickname == user.nickname:
+        new_user = User(nickname, password, age)
+        if new_user not in self.users:
+            self.users.append(new_user)
+            self.current_user= new_user
+        else:
             print(f'Пользователь {nickname} уже существует')
-    def add(self, ):
 
+    def log_out(self):
+        self.current_user = None
 
-    def get_videos(self, ):
-    def watch_video(self, ):
+    def add(self, *videos: Video):
+        for film in videos:
+            if film.title not in self.videos:
+                self.videos.append(film)
 
+    def get_videos(self, search):
+        title = []
+        for film in self.videos:
+            if search.lower() in str(film).lower():
+                title.append(film)
+        return title
+
+    # def watch_video(self, film):
+    #     if self.current_user:
+    #         for video in self.videos:
+    #             if self.current_user and self.current_user.age < 18:
+    #                 print('Вам нет 18 лет, пожалуйста покиньте страницу')
+    #                 return
+    #             if film in video.title:
+    #                 for i in range(1, 11):
+    #                     print(i, end = ' ')
+    #                     time.sleep(1)
+    #                     video.time_now += 1
+    #                 video.time_now = 0
+    #                 print('Конец видео')
+    #     else:
+    #         print('Войдите в аккаунт, чтобы смотреть видео')
+    def watch_video(self, title):
+        if self.current_user is None:
+            print('Войдите в аккаунт, чтобы смотреть видео')
+            return
+        for film in self.videos:
+            if title == film.title:
+                if film.adult_mode and self.current_user.age >= 18:
+                    while film.time_now < film.duration:
+                        film.time_now += 1
+                        print(film.time_now, end=' ')
+                        sleep(0.2)
+                    print('Конец видео')
+                else:
+                    print('Вам нет 18 лет, пожалуйста покиньте страницу')
 
 # Код для проверки:
-ur = UrTube()
+ur=UrTube()
 v1 = Video('Лучший язык программирования 2024 года', 200)
 v2 = Video('Для чего девушкам парень программист?', 10, adult_mode=True)
 # Добавление видео
