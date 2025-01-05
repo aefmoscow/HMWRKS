@@ -27,8 +27,7 @@ class Video:
         self.time_now = time_now
         self.adult_mode = adult_mode
 
-
-# в связи с не отображением титлов из задания, вставим костыль, либо распаковать объекты данных в print *ur
+    # в связи с не отображением титлов из задания, вставим костыль, либо распаковать объекты данных в print *ur
     def __repr__(self):
         return self.title
 
@@ -51,7 +50,7 @@ class UrTube:
         new_user = User(nickname, password, age)
         if new_user not in self.users:
             self.users.append(new_user)
-            self.current_user= new_user
+            self.current_user = new_user
         else:
             print(f'Пользователь {nickname} уже существует')
 
@@ -70,21 +69,6 @@ class UrTube:
                 title.append(film)
         return title
 
-    # def watch_video(self, film):
-    #     if self.current_user:
-    #         for video in self.videos:
-    #             if self.current_user and self.current_user.age < 18:
-    #                 print('Вам нет 18 лет, пожалуйста покиньте страницу')
-    #                 return
-    #             if film in video.title:
-    #                 for i in range(1, 11):
-    #                     print(i, end = ' ')
-    #                     time.sleep(1)
-    #                     video.time_now += 1
-    #                 video.time_now = 0
-    #                 print('Конец видео')
-    #     else:
-    #         print('Войдите в аккаунт, чтобы смотреть видео')
     def watch_video(self, title):
         if self.current_user is None:
             print('Войдите в аккаунт, чтобы смотреть видео')
@@ -100,8 +84,9 @@ class UrTube:
                 else:
                     print('Вам нет 18 лет, пожалуйста покиньте страницу')
 
+
 # Код для проверки:
-ur=UrTube()
+ur = UrTube()
 v1 = Video('Лучший язык программирования 2024 года', 200)
 v2 = Video('Для чего девушкам парень программист?', 10, adult_mode=True)
 # Добавление видео
