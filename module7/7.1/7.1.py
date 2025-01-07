@@ -29,7 +29,7 @@ class Shop:
         file.close()
 
 
-# Пример результата выполнения программы:
+# Пример результата выполнения программы_:
 s1 = Shop()
 p1 = Product('Potato', 50.5, 'Vegetables')
 p2 = Product('Spaghetti', 3.4, 'Groceries')
