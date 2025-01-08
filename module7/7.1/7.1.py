@@ -19,6 +19,7 @@ class Shop:
 
     def add(self, *products):
         current_products = self.get_products()
+
         file = open(self.__file_name, 'a')
         for redisko in products:
             if str(redisko) not in current_products:
