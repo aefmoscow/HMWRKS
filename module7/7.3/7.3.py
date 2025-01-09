@@ -28,7 +28,7 @@ class WordsFinder:
 
 
 # Пример выполнения программы:
-finder2 = WordsFinder('c:/USERS/DV/desktop/p/73test_file.txt')
+finder2 = WordsFinder('73test_file.txt')
 print(finder2.get_all_words())  # Все слова
 print(finder2.find('TEXT'))  # 3 слово по счёту
 print(finder2.count('teXT'))  # 4 слова teXT в тексте всего
