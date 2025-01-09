@@ -6,8 +6,8 @@ class WordsFinder:
         all_words = {}
         with open(str(self.file_names), 'r', encoding='utf-8') as file:
             words = file.read().lower()
-            for punct in [',', '.', '=', '!', '?', ';', ':', ' - ']:
-                words = words.replace(punct, '')
+            for simb in [',', '.', '=', '!', '?', ';', ':', ' - ']:
+                words = words.replace(simb, '')
                 all_words[self.file_names] = words.split()
                 return all_words
 
