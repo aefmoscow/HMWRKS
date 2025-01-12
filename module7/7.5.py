@@ -3,8 +3,6 @@ import time
 
 path = os.getcwd()
 directory = '.'
-# for dirpath, dirnames, filenames in os.walk(path):
-#     print(dirpath, dirnames, filenames)
 for root, dirs, files in os.walk(directory):
     for file in files:
         filepath = os.path.join(root, file)
